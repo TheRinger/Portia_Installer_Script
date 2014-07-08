@@ -1,4 +1,5 @@
 #!/bin/bash
+#In order for this script to work you need to add the user as portia
 #script for installing portia on remote server
 #Tested to be working on Ubuntu 14.04 new DigitalOcean Deployment
 #Get an Account no money down for 5$ a month, static IP, SSD.
