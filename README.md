@@ -79,6 +79,7 @@ put in a new password (remember your password)
 
 4.) If you made it this far good job, now let's setup a user so we don't use root for everything..
 copy / paste the following one line at a time into the terminal and press enter..
+Please note: in order for this script to work you must use the username portia you can change the password to whatever you like
 
     useradd -d /home/portia -s /bin/bash -m portia 
     passwd portia 
