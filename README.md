@@ -13,7 +13,7 @@ This script has only been tested to work on Ubuntu Server 14.04 - 64 bit
 
 You can start an account instantly using: 
 
-    http://bit.ly/digital-ocean-promotion
+http://bit.ly/digital-ocean-promotion
 
 If you found this script useful please consider buying me a coffee as setting
 this up originally from the original portia docs took me 20+ hours.. (don't ask why .. )
@@ -25,7 +25,7 @@ Here's the process...
 Step 1.
 Sign up for a Digital Ocean VPS, (your own fast server pick from several locations closest to you)
 
-    http://bit.ly/digital-ocean-promotion
+http://bit.ly/digital-ocean-promotion
 
 Once you've signed up and you are at your Control Panel, click CREATE (green button)
 Choose a hostname , this can be anything or you can map it to a domain name you already have..
