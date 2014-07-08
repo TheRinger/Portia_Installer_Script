@@ -19,6 +19,7 @@ If you found this script useful please consider buying me a coffee as setting
 this up originally from the original portia docs took me 20+ hours.. (don't ask why .. )
 
 
+
 Here's the process...
 
 Step 1.
@@ -109,7 +110,10 @@ copy / paste these commands..
 
     nano install_portia.sh
 
-copy / paste this script of git clone it from this repo
+copy / paste this script of git clone it from this repo using this link:
+
+    https://github.com/tytek2012/Portia_Installer_Script.git
+    
 
     hit control + o then hit enter to save 
     hit control + x to exit
