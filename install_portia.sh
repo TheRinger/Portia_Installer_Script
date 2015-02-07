@@ -11,6 +11,13 @@
 #Also I know my coding skills suck ok genius.. :)
 
 cd
+CAN_I_RUN_SUDO=$(sudo -n uptime 2>&1|grep "load"|wc -l)
+if [ ${CAN_I_RUN_SUDO} -gt 0 ]
+then
+echo "You can run the Sudo Command"
+else
+echo "You cannot run the Sudo command"
+fi
 clear;
 echo "Starting updates first...."
 sudo aptitude update && aptitude install curl git git-core python-pip python-dev toilet libxml2-dev libxslt1-dev libffi-dev libssl-dev && toilet -f mono12 -t --gay Updates Done && aptitude upgrade && toilet -f mono12 -t --gay Upgrades Done && aptitude dist-upgrade && toilet -f mono12 -t --gay Distro Upgraded
