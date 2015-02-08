@@ -30,7 +30,7 @@ echo "-------------  Installing Portia Requirements ---------------"
 sudo chown -R portia:portia ~/portia
 
 cd ~/portia/slyd/
-~/portia/bin/pip install service_identitycd
+~/portia/bin/pip install service_identity
 ~/portia/bin/pip install -r requirements.txt
 
 echo "-------------  Getting your Ip Address ---------------"
